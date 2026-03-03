@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "title": "Getting Started with Modern Web Development",
+    "excerpt": "Learn the fundamentals of building modern web applications with React, TypeScript, and Tailwind CSS.",
+    "content": "Building modern web applications has never been more exciting. With tools like React, TypeScript, and Tailwind CSS, developers can create beautiful, performant applications quickly and efficiently.\n\nReact provides a component-based architecture that makes code reusable and maintainable. TypeScript adds type safety, catching errors before they make it to production. And Tailwind CSS offers a utility-first approach to styling that speeds up development without sacrificing design quality.\n\nIn this comprehensive guide, we'll explore how these technologies work together to create amazing user experiences. We'll dive into best practices, common patterns, and tips for building scalable applications.\n\nWhether you're just starting out or looking to level up your skills, understanding these modern tools is essential for any web developer in 2026.",
+    "author": "Sarah Johnson",
+    "date": "February 28, 2026",
+    "readTime": "5 min read",
+    "imageUrl": "https://images.unsplash.com/photo-1753715613434-9c7cb58876b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwd3JpdGluZyUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NzI0Mjk3NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "category": "Web Development"
+  },
+  {
+    "id": "2",
+    "title": "The Future of Architecture and Design",
+    "excerpt": "Exploring how modern architecture is shaping our cities and influencing digital design principles.",
+    "content": "Architecture and digital design share more in common than you might think. Both disciplines focus on creating spaces - physical or digital - that serve human needs while pushing the boundaries of what's possible.\n\nModern architecture emphasizes clean lines, functional spaces, and sustainable materials. These same principles apply to web design: clean interfaces, functional user experiences, and sustainable code that's maintainable for years to come.\n\nAs we look toward the future, the intersection of physical and digital design becomes increasingly important. Smart buildings, interactive installations, and responsive environments are just the beginning.\n\nThe architects and designers of tomorrow will need to understand both the physical and digital realms, creating seamless experiences that bridge the gap between the two.",
+    "author": "Michael Chen",
+    "date": "February 25, 2026",
+    "readTime": "7 min read",
+    "imageUrl": "https://images.unsplash.com/photo-1695067440629-b5e513976100?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmUlMjBidWlsZGluZ3xlbnwxfHx8fDE3NzIzNzcxNjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "category": "Design"
+  },
+  {
+    "id": "3",
+    "title": "Creating Productive Workspaces",
+    "excerpt": "Design tips and strategies for building environments that inspire creativity and boost productivity.",
+    "content": "Your workspace has a profound impact on your productivity and creativity. Whether you're working from home or in an office, the environment you create can make or break your workflow.\n\nStart with the basics: good lighting, comfortable furniture, and minimal distractions. Natural light is ideal, but if that's not available, invest in quality lighting that mimics daylight. Your chair and desk should support good posture and be adjustable to your needs.\n\nOrganization is key. Keep frequently used items within reach, but don't clutter your workspace. A clean desk leads to a clear mind. Use storage solutions that work for you - whether that's drawers, shelves, or digital organization tools.\n\nFinally, personalize your space. Add plants, artwork, or other items that inspire you. Your workspace should reflect your personality while supporting your work goals.",
+    "author": "Emily Rodriguez",
+    "date": "February 22, 2026",
+    "readTime": "4 min read",
+    "imageUrl": "https://images.unsplash.com/photo-1763191213523-1489179a1088?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHdvcmtzcGFjZSUyMGRlc2lnbnxlbnwxfHx8fDE3NzI0MTM4NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "category": "Productivity"
+  },
+  {
+    "id": "4",
+    "title": "Finding Inspiration in Nature",
+    "excerpt": "How natural landscapes can inform design decisions and spark creative thinking.",
+    "content": "Nature is the ultimate designer. From the intricate patterns of a snowflake to the grand scale of mountain ranges, the natural world offers endless inspiration for creative work.\n\nMany of the best designs in history have been inspired by nature. The color palettes we use, the shapes we create, the patterns we employ - all can be traced back to natural forms. This isn't just aesthetics; nature has spent millions of years optimizing these designs.\n\nTake time to observe the world around you. Notice how light plays across different surfaces, how colors change throughout the day, how forms flow and interact. These observations can inform your work in surprising ways.\n\nWhether you're designing a website, creating art, or solving complex problems, stepping back and looking to nature can provide fresh perspectives and innovative solutions.",
+    "author": "David Park",
+    "date": "February 20, 2026",
+    "readTime": "6 min read",
+    "imageUrl": "https://images.unsplash.com/photo-1598439473183-42c9301db5dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuYXR1cmUlMjBsYW5kc2NhcGUlMjBtb3VudGFpbnxlbnwxfHx8fDE3NzIzNDQwNzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "category": "Inspiration"
+  },
+  {
+    "id": "5",
+    "title": "The Developer's Guide to Coffee and Code",
+    "excerpt": "Exploring the relationship between caffeine, creativity, and coding productivity.",
+    "content": "Coffee and coding have a long, intertwined history. For many developers, that morning cup isn't just a beverage - it's a ritual that marks the beginning of a productive day.\n\nBut what's the science behind coffee's effectiveness? Caffeine blocks adenosine receptors in the brain, reducing fatigue and increasing alertness. This can lead to improved focus and better problem-solving abilities - both crucial for coding.\n\nHowever, moderation is key. Too much caffeine can lead to jitters, anxiety, and decreased productivity. The sweet spot for most people is 200-400mg per day, roughly 2-4 cups of coffee.\n\nBeyond the chemistry, there's something about the ritual of making and enjoying coffee that helps transition into work mode. Whether you prefer pour-over, espresso, or a simple drip machine, find a routine that works for you.",
+    "author": "Alex Thompson",
+    "date": "February 18, 2026",
+    "readTime": "5 min read",
+    "imageUrl": "https://images.unsplash.com/photo-1718483610680-c26f3d02c57b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBjb2RpbmclMjBsYXB0b3B8ZW58MXx8fHwxNzcyMzk3NTQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "category": "Lifestyle"
+  },
+  {
+    "id": "6",
+    "title": "Minimalism in Design and Life",
+    "excerpt": "The benefits of embracing simplicity in both your workspace and your codebase.",
+    "content": "Minimalism isn't about having less - it's about making room for more of what matters. This philosophy applies equally to physical spaces and digital products.\n\nIn design, minimalism means removing unnecessary elements to focus on what's essential. Every component, every line of code, every visual element should serve a purpose. This creates interfaces that are clean, intuitive, and pleasant to use.\n\nThe same principle applies to your workspace. A minimal desk setup reduces distractions and helps you focus on the task at hand. Keep only what you need within reach, and create systems to handle everything else.\n\nIn code, minimalism means writing simple, clear solutions rather than over-engineering. The best code is often the code that doesn't exist - solve problems with existing tools and libraries when possible, and keep your solutions as simple as they can be while still being effective.\n\nEmbrace simplicity, and you'll find both your work and your workspace become more enjoyable and productive.",
+    "author": "Jessica Wu",
+    "date": "February 15, 2026",
+    "readTime": "4 min read",
+    "imageUrl": "https://images.unsplash.com/photo-1590212151175-e58edd96185b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsJTIwZGVzayUyMHNldHVwfGVufDF8fHx8MTc3MjM0MzE2OHww",
+    "category": "Design"
+  }
+]
