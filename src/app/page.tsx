@@ -1,14 +1,22 @@
 "use client";
 
+import { BlogCard } from "@/components/BlogCard";
 import { useBlogcontext } from "@/context/BlogDataContext";
 import { Search } from "lucide-react";
 import { motion } from "motion/react";
-import { button } from "motion/react-client";
+import { button, div } from "motion/react-client";
 import { useState } from "react";
 export default function Home() {
   const { data } = useBlogcontext();
 
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
+
+  const filteredPosts = data.filter((post) => {
+    const matchesCategory =
+      selectedCategory === "All" || post.category === selectedCategory;
+
+    return matchesCategory;
+  });
 
   const category = [
     "All",
@@ -54,7 +62,7 @@ export default function Home() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.3 }}
-        className="flex justify-center flex-wrap gap-3 pt-5"
+        className="flex justify-center flex-wrap gap-3 p-5"
       >
         {category.map((category, index) => (
           <motion.button
@@ -65,15 +73,34 @@ export default function Home() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => setSelectedCategory(category)}
-            className={`px-4 py-2 rounded-full text-sm transition-colors ${selectedCategory === category
+            className={`px-4 py-2 rounded-full text-sm transition-colors ${
+              selectedCategory === category
                 ? "bg-blue-600 text-white"
                 : "bg-white text-gray-700 hover:bg-gray-100"
-              }`}
+            }`}
           >
             {category}
           </motion.button>
         ))}
       </motion.div>
+
+      {filteredPosts.length > 0 ? (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {filteredPosts.map((post, index) => (
+            <BlogCard key={post.id} post={{ ...post }} index={index} />
+          ))}
+        </div>
+      ) : (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="text-center py-12"
+        >
+          <p className="text-gray-500 text-lg">
+            No articles found matching your criteria.
+          </p>
+        </motion.div>
+      )}
     </div>
   );
 }
