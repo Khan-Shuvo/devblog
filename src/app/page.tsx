@@ -4,18 +4,19 @@ import { BlogCard } from "@/components/BlogCard";
 import { useBlogcontext } from "@/context/BlogDataContext";
 import { Search } from "lucide-react";
 import { motion } from "motion/react";
-import { button, div } from "motion/react-client";
 import { useState } from "react";
 export default function Home() {
   const { data } = useBlogcontext();
 
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
+  const [searchQuery, setSearchQuery] = useState('')
 
   const filteredPosts = data.filter((post) => {
+    const matchSearch = post.title.toLocaleLowerCase().includes(searchQuery.toLocaleLowerCase()) || post.excerpt.toLocaleLowerCase().includes(searchQuery.toLocaleLowerCase())
     const matchesCategory =
       selectedCategory === "All" || post.category === selectedCategory;
 
-    return matchesCategory;
+    return matchesCategory && matchSearch;
   });
 
   const category = [
@@ -52,6 +53,8 @@ export default function Home() {
         <input
           type="text"
           placeholder="Search Artecale.."
+          value={searchQuery}
+          onChange={e => setSearchQuery(e.target.value)}
           className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
         />
       </motion.div>
