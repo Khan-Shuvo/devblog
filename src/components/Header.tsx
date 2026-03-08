@@ -19,6 +19,10 @@ export default function Header() {
         {
             name: "About",
             path: '/about'
+        },
+        {
+            name: "Contact",
+            path: '/contact'
         }
     ]
 
@@ -69,7 +73,7 @@ export default function Header() {
         <motion.header
             initial={{ opacity: 0, y: -10, }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{duration: .2}} className="sticky top-0 z-50 backdrop-blur bg-white/70 shadow-sm">
+            transition={{ duration: .2 }} className="sticky top-0 z-50 backdrop-blur bg-white/70 shadow-sm">
             <div className="flex items-center justify-between px-6 py-4">
                 {/* logo */}
                 <Link href={'/'} className="flex items-center gap-2">
